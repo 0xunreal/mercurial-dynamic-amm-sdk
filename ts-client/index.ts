@@ -1,4 +1,4 @@
-import { VaultIdl as Vault, IDL as VaultIdl } from '@mercurial-finance/vault-sdk';
+import { VaultIdl as Vault, IDL as VaultIdl } from '@0xunreal/vault-sdk';
 import AmmImpl from './src/amm';
 import DynamicAmmError from './src/amm/error';
 import { StableSwap, ConstantProductSwap } from './src/amm/curve';
@@ -62,5 +62,5 @@ export type {
   StableSwapCurve,
   SwapQuoteParam,
 } from './src/amm/types';
-export type { VaultState } from '@mercurial-finance/vault-sdk';
+export type { VaultState } from '@0xunreal/vault-sdk';
 export type { Amm, Vault };

@@ -21,7 +21,7 @@ import {
   TOKEN_PROGRAM_ID,
   u64,
 } from '@solana/spl-token';
-import VaultImpl, { calculateWithdrawableAmount, getVaultPdas } from '@mercurial-finance/vault-sdk';
+import VaultImpl, { calculateWithdrawableAmount, getVaultPdas } from '@0xunreal/vault-sdk';
 import invariant from 'invariant';
 import {
   AccountType,

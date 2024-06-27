@@ -3,7 +3,7 @@ import { TokenInfo } from '@solana/spl-token-registry';
 import { IdlAccounts, IdlTypes, Program } from '@project-serum/anchor';
 import BN from 'bn.js';
 import { Amm as AmmIdl } from '../idl';
-import { VaultState, VaultIdl } from '@mercurial-finance/vault-sdk';
+import { VaultState, VaultIdl } from '@0xunreal/vault-sdk';
 import Decimal from 'decimal.js';
 import { publicKey, struct, u64, u8, option } from '@project-serum/borsh';
 

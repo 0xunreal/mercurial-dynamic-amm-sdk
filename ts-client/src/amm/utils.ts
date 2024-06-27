@@ -6,7 +6,7 @@ import {
   IDL as VaultIDL,
   VaultIdl,
   PROGRAM_ID as VAULT_PROGRAM_ID,
-} from '@mercurial-finance/vault-sdk';
+} from '@0xunreal/vault-sdk';
 import { AnchorProvider, BN, Program } from '@project-serum/anchor';
 import {
   ASSOCIATED_TOKEN_PROGRAM_ID,
